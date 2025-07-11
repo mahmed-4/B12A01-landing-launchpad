@@ -39,6 +39,21 @@ a{
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+
+}
+button{
+    transition: all linear 0.3s;
+}
+button:hover{
+    background-color: purple;
+}
+li a{
+    transition: all linear 0.3s;
+}
+li a:hover{
+    color: purple;
+    font-size: 20px;
+    font-weight: 700;
 }
 .contener-with-masuma-fix{
     margin: 0 auto;
@@ -104,7 +119,7 @@ main{
     font-weight: bold;
 }
 
-form input, button, textarea{
+form input, textarea{
     display: block;
     width: 495px ;
     padding: 20px 30px;
@@ -115,6 +130,10 @@ form input, button, textarea{
 form .get-in-btn{
     /* width: 100%; */
 }
+form button{
+    width: 100%;
+}
+
 
 
 /* footer section */
