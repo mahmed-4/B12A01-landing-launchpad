@@ -1,0 +1,104 @@
+body {
+    
+    background-color: beige;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-inter {
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.font-raleway{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    text-align: center;   
+}
+a{
+    text-decoration: none;
+}
+
+
+.btn-primary{
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: lightblue;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+
+
+/* nav styles */
+
+nav{
+    margin: 0px 160px;
+}
+
+main{
+    margin: 0px auto;
+    width: 1140px;
+
+}
+/* action section */
+.action-section img{
+    border-radius: 48px;
+    margin: 100px 0px;
+
+}
+.user-section{
+    text-align: center;
+    background-color: hsla(242, 100%, 64%, 0.197);
+    border-radius: 24px;
+    padding: 70px 150px;
+}
+
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+
+}
+
+
+.user-section .data h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #4E47FF;
+}
+.user-section .data p{
+    font-size: 20px;
+    color: rgba(0, 128, 0, 0.827);
+}
+
+/* get in touch style */
+.in-touch-section{
+    margin: 100px 0px;
+}
+
+.in-touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+form input, button, textarea{
+    display: block;
+    width: 495px ;
+    padding: 20px 30px;
+    border: none;
+}
