@@ -41,6 +41,9 @@ a{
     border-radius: 5px;
 
 }
+textarea{
+    resize: none;
+}
 button{
     transition: all linear 0.3s;
 }
